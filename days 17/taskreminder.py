@@ -24,7 +24,6 @@ class TaskReminder(QWidget):
 
         self.task_list = QListWidget(self)
 
-
         self.delete_button = QPushButton('Delete Selected Task', self)
         self.delete_button.clicked.connect(self.deleteTask)
 
